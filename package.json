@@ -1,0 +1,38 @@
+{
+  "name": "cargo-node-api",
+  "version": "1.0.0",
+  "description": "CarGo Node.Js API",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_PATH=. node app.js",
+    "local": "NODE_PATH=. LOCAL=1 node app.js"
+  },
+  "dependencies": {
+    "async": "2.6.0",
+    "bluebird": "3.5.1",
+    "body-parser": "1.18.2",
+    "co": "4.6.0",
+    "country-data": "0.0.31",
+    "express": "4.16.2",
+    "express-fileupload": "0.4.0",
+    "fbgraph": "1.4.1",
+    "file-exists": "5.0.1",
+    "hashids": "1.1.4",
+    "is-url": "1.2.4",
+    "joi": "13.1.2",
+    "jsonwebtoken": "^8.2.0",
+    "kue": "0.11.6",
+    "lodash": "4.17.4",
+    "moment": "2.20.1",
+    "mongoose": "5.0.1",
+    "passport": "0.4.0",
+    "passport-facebook": "2.1.1",
+    "random-js": "1.0.8",
+    "randomcolor": "0.5.3",
+    "raven": "^2.4.2",
+    "request": "2.85.0",
+    "request-promise": "4.2.2",
+    "stream-to-promise": "2.2.0"
+  }
+}
